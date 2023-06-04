@@ -1,4 +1,4 @@
-package com.loaiane.cursojava.licaodecasa.aula16;
+package com.loaiane.cursojava.aula16;
 
 import java.util.Scanner;
 

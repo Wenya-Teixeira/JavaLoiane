@@ -1,4 +1,4 @@
-package com.loaiane.cursojava.licaodecasa.aula17;
+package com.loaiane.cursojava.aula17;
 
 public class ForVariaveis {
 
