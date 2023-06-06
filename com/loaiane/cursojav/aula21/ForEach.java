@@ -14,11 +14,13 @@ public class ForEach {
 		
 		Random random = new Random();
 		
+		//Criamos um Array e setamos valores aleatorios para ele
 		for(int i = 0; i < notas.length; i++) {
 			
 			notas[i] = random.nextInt(10);
 		}
 		
+		//Aqui imprimimos nosso array
 		for (int i = 0; i < notas.length; i++) {
 			int nota = notas[i];
 			System.out.println(nota);
@@ -26,14 +28,15 @@ public class ForEach {
 		
 		System.out.println("Usando o for each");
 		
+		//Criamos nosso Array com for each e já imprimimos o Array
 		for(int nota : notas) {
 			System.out.println(nota);
 		}
 
 		
-		//exemplo 2:
+		//exemplo 2: Utilizando matriz
 		System.out.println("Exemplo com arrays multidimensionais");
-		double[][] notasAlunos = new double[30][4];
+		double[][] notasAlunos = new double[3][4];
 		
 		notasAlunos[0][0] = 10;
 		notasAlunos[0][1] = 7;
@@ -52,7 +55,7 @@ public class ForEach {
 		
 		for (double[] notasAluno : notasAlunos ) {
 			for (double nota : notasAluno) {
-				System.out.println(nota + " ");
+				System.out.print(nota + " ");
 			}
 			System.out.println();
 		}
